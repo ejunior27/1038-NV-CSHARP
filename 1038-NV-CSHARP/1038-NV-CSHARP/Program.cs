@@ -220,8 +220,6 @@ internal class Program
         dic.Count();
         dic.Clear();
         
-
-        
         //...
         //WriteLine(nome);
 
