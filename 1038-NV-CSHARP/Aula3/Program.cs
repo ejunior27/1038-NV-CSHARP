@@ -10,7 +10,7 @@
             try
             {
                 int dividendo = 10;
-                int divisor = 0;                               
+                int divisor = 0;
 
                 //int valor = Convert.ToInt32("a");
 
@@ -23,7 +23,7 @@
             //{
             //    Console.WriteLine($"Erro: Não é possível dividir por zero - {ex.StackTrace}");
             //}            
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine($"Erro: {ex.Message}");
                 //throw new Exception("Ocorreu um erro forçado");
@@ -35,7 +35,9 @@
                 //encerramento de possíveis conexões (banco de dados, arquivos..)
                 Console.WriteLine("Programa encerrado.");
                 Console.ReadKey();
-            }            
+            }
         }
     }
+
+    
 }
