@@ -7,6 +7,8 @@
             Retangulo retangulo1 = new Retangulo(5, 3, "azul");
             Retangulo retangulo2 = new Retangulo(8, 9, "vermelho");
 
+            
+
             Console.WriteLine($"Retangulo1: lado1={retangulo1.getLado1()} " +
                 $"lado2={retangulo1.getLado2()} cor={retangulo1.getCor()}");
 
